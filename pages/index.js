@@ -26,7 +26,11 @@ export default function Home() {
           <button
             key={idx}
             onClick={() => setFrame(f)}
+<<<<<<< HEAD
             className={\`border p-1 rounded \${frame === f ? 'border-blue-500' : 'border-gray-300'}\`}
+=======
+            className={`border p-1 rounded ${frame === f ? 'border-blue-500' : 'border-gray-300'}`}
+>>>>>>> 6ab547e2eaf21ad32fd948445db17856124bf309
           >
             <Image src={f} alt={\`Frame \${idx}\`} width={80} height={80} />
           </button>
